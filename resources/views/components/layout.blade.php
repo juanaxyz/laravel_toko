@@ -4,6 +4,7 @@
 <head>
     <title>{{ $title ?? 'Toko App' }}</title>
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
     <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
 
 </head>

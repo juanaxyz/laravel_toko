@@ -21,8 +21,7 @@
                             {{ $product->category->category_name }}
                         </span>
                     </div>
-                    <img src="{{ asset('storage/image_products/' . $product->image_path) }}"
-                        alt="{{ $product->product_name }}"
+                    <img src="{{ asset('storage/' . $product->image_path) }}" alt="{{ $product->product_name }}"
                         class="w-full max-w-md h-80 lg:h-96 object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition duration-500">
                 </div>
 

@@ -20,6 +20,7 @@ class ProductSeeder extends Seeder
             'description' => 'Laptop gaming dengan performa tinggi dan desain yang stylish.',
             'price' => 15000000,
             'stock' => random_int(1, 100),
+            'image_path' => 'image_products/Vi53ZWJw.jpg',
             'category_id' => random_int(1, 2)
         ]);
         Product::create(
@@ -28,6 +29,7 @@ class ProductSeeder extends Seeder
                 'description' => 'Baju kemeja pria dengan bahan berkualitas dan desain modern.',
                 'price' => 250000,
                 'stock' => random_int(1, 100),
+                'image_path' => 'image_products/Nl82NDAuanBn.jpg',
                 'category_id' => random_int(1, 2)
             ]
         );
